@@ -1,0 +1,41 @@
+{
+  "name": "hearing-aid",
+  "version": "1.0.0",
+  "description": "A uniform interface for listening and removing events on DOM elements, EventEmitter and what not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "coverage": "istanbul cover _mocha -- test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unshiftio/hearing-aid.git"
+  },
+  "keywords": [
+    "hearing",
+    "aid",
+    "hearing-aid",
+    "listener",
+    "listen",
+    "listening",
+    "addeventlistener",
+    "addevent",
+    "attachevent",
+    "event",
+    "eventemitter",
+    "emitter"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unshiftio/hearing-aid/issues"
+  },
+  "homepage": "https://github.com/unshiftio/hearing-aid#readme",
+  "dependencies": {
+    "assume": "1.3.1",
+    "istanbul": "0.4.0",
+    "mocha": "2.3.4",
+    "one-time": "0.0.4",
+    "pre-commit": "1.1.2"
+  }
+}
