@@ -32,10 +32,10 @@
   },
   "homepage": "https://github.com/unshiftio/hearing-aid#readme",
   "devDependencies": {
-    "assume": "1.3.1",
-    "istanbul": "0.4.0",
-    "mocha": "2.3.4",
-    "pre-commit": "1.1.2"
+    "assume": "1.4.1",
+    "istanbul": "0.4.5",
+    "mocha": "3.1.2",
+    "pre-commit": "1.1.3"
   },
   "dependencies": {
     "one-time": "0.0.4"
