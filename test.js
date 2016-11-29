@@ -14,16 +14,6 @@ describe('hearing', function () {
   var assume = require('assume')
     , hearing = require('./');
 
-  it('throws an error when no listener methods are found', function (next) {
-    try {
-      hearing({}, 'name', function () {});
-    } catch (e) {
-      assume(e.message).includes('No event listening interface found');
-
-      next();
-    }
-  });
-
   describe('attaching', function () {
     it('attaches with attachEvent', function (next) {
       next = assume.plan(3, next);
