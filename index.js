@@ -45,6 +45,4 @@ module.exports = function hearing(what, when, how) {
       else if ('off' in what) what.off(when, how);
     });
   }
-
-  throw new Error('No event listening interface found');
 };
