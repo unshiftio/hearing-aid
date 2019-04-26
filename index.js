@@ -11,6 +11,13 @@ var ftw = typeof window !== 'undefined' ? window : {}
  * @param {Function} how Function to be executed.
  * @returns {Function}
  * @api public
+ *
+ * @example ```js
+  // listen for `stream` to 'end'
+  var stop = hearing(stream, 'end', callback);
+  // stop listening after 1 second
+  setTimeout(stop, 1000);
+  ```
  */
 module.exports = function hearing(what, when, how) {
   if ('addEventListener' in what) {
