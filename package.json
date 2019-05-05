@@ -38,7 +38,7 @@
     "pre-commit": "1.2.0"
   },
   "dependencies": {
-    "one-time": "0.0.4"
+    "one-time": "1.0.0"
   },
   "types": "./index.d.ts"
 }
